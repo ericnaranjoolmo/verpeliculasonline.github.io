@@ -1,0 +1,86 @@
+*{
+  margin: 0px;
+  padding: 0px;
+
+  font-family: 'Roboto', sans-serif;
+}
+
+body{
+  background-color: white;
+}
+
+header{
+  background-color: seagreen;
+
+  padding: 25px 0px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+h1{
+  color: white;
+
+  font-size: 30px;
+}
+
+section{
+  margin: 25px;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.contenedor_izquierda{
+  flex-direction: column;
+  display: flex;
+}
+
+#genero_pelicula{
+  font-size: 20px;
+
+  margin-top: 10px;
+}
+
+#genero_pelicula span{
+  font-weight: bold;
+}
+
+#ano_pelicula{
+  font-size: 20px;
+
+  margin-top: 10px;
+}
+
+#ano_pelicula span{
+  font-weight: bold;
+}
+
+#idioma_pelicula{
+  font-size: 20px;
+
+  margin-top: 10px;
+}
+
+#idioma_pelicula span{
+  font-weight: bold;
+}
+
+#titulo_descripcion{
+  font-size: 25px;
+  font-weight: bold;
+
+  margin-left: 25px;
+
+  text-align: center;
+}
+
+#texto_descripcion{
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 25px;
+
+  font-size: 18px;
+}

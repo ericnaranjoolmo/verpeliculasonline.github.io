@@ -1,0 +1,124 @@
+*{
+  margin: 0px;
+  padding: 0px;
+
+  font-family: 'Roboto', sans-serif;
+}
+
+body{
+  background-color: white;
+}
+
+header{
+  background-color: seagreen;
+
+  padding: 25px 0px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+h1{
+  color: white;
+
+  font-size: 30px;
+}
+
+.contenedor{
+  display: flex;
+  flex-direction: row;
+}
+
+nav{
+  background-color: transparent;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 25%;
+
+  background-color: lightseagreen;
+}
+
+.titulo_categorias{
+  font-size: 25px;
+  font-weight: bold;
+
+  color: white;
+
+  background-color: mediumseagreen;
+
+  padding: 25px 0px;
+
+  text-align: center;
+
+  border-bottom: 2px solid black;
+
+  width: 100%;
+}
+
+.enlace_categoria{
+  padding: 25px 0px;
+
+  width: 100%;
+
+  text-align: center;
+  text-decoration: none;
+
+  background-color: lightseagreen;
+
+  border-bottom: 2px solid white;
+
+  color: white;
+
+  font-size: 18px;
+}
+
+.enlace_categoria:hover{
+  background-color: cadetblue;
+}
+
+section{
+  width: 75%;
+
+  background-color: whitesmoke;
+}
+
+.enlace_pelicula{
+  width: 250px;
+  height: 350px;
+
+  margin: 25px;
+
+  display: block;
+
+  text-decoration: none;
+}
+
+.contenedor_pelicula{
+  width: 250px;
+  height: 350px;
+}
+
+.imagen_pelicula{
+  width: 250px;
+  height: 300px;
+}
+
+.titulo_pelicula{
+  font-size: 18px;
+
+  color: white;
+
+  text-align: center;
+
+  font-size: bold;
+
+  background-color: mediumseagreen;
+
+  padding: 15px 25px;
+}
