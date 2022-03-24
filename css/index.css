@@ -37,15 +37,15 @@ nav{
   margin-top: 75px;
 }
 
-.titulo_idiomas{
+#titulo_idiomas{
   font-size: 30px;
 
   text-align: center;
 
-  margin: 0px 25px;
+  margin: 0px 40px;
 }
 
-.contenedor_idiomas{
+#contenedor_idiomas{
   margin-top: 50px;
 
   display: flex;
