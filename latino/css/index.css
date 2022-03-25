@@ -26,6 +26,11 @@ h1{
   font-size: 30px;
 }
 
+.contenedor{
+  display: flex;
+  flex-direction: row;
+}
+
 nav{
   background-color: transparent;
 
@@ -34,32 +39,111 @@ nav{
   align-items: center;
   justify-content: center;
 
-  margin-top: 75px;
+  width: 25%;
+
+  background-color: lightseagreen;
 }
 
-.titulo_idiomas{
-  font-size: 30px;
+.titulo_categorias{
+  font-size: 25px;
+  font-weight: bold;
+
+  color: white;
+
+  background-color: mediumseagreen;
+
+  padding: 25px 0px;
 
   text-align: center;
 
-  margin: 0px 25px;
+  border-bottom: 2px solid black;
+
+  width: 100%;
 }
 
-.contenedor_idiomas{
-  margin-top: 50px;
+.enlace_categoria{
+  padding: 25px 0px;
+
+  width: 100%;
+
+  text-align: center;
+  text-decoration: none;
+
+  background-color: lightseagreen;
+
+  border-bottom: 2px solid white;
+
+  color: white;
+
+  font-size: 18px;
+}
+
+.enlace_categoria:hover{
+  background-color: cadetblue;
+}
+
+section{
+  width: 75%;
+
+  background-color: whitesmoke;
 
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
-.enlace_idioma{
-  margin: 25px 0px;
+.enlace_pelicula{
+  width: 250px;
+  height: 350px;
 
-  text-decoration: underline;
+  margin: 25px;
 
-  font-size: 25px;
+  display: block;
 
-  color: seagreen;
+  text-decoration: none;
+}
+
+.contenedor_pelicula{
+  width: 250px;
+  height: 350px;
+}
+
+.imagen_pelicula{
+  width: 250px;
+  height: 300px;
+}
+
+.titulo_pelicula{
+  font-size: 18px;
+
+  color: white;
+
+  text-align: center;
+
+  font-size: bold;
+
+  background-color: mediumseagreen;
+
+  padding: 15px 25px;
+}
+
+/* MOVIL */
+@media (max-width: 750px) {
+  .contenedor{
+    display: flex;
+    flex-direction: column;
+  }
+
+  nav{
+    width: 100%;
+  }
+
+  section{
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }

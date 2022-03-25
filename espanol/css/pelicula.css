@@ -33,9 +33,27 @@ section{
   flex-direction: row;
 }
 
-.contenedor_izquierda{
+#contenedor_izquierda{
   flex-direction: column;
   display: flex;
+}
+
+#contenedor_derecha{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  margin-left: 25px;
+}
+
+#duracion_pelicula{
+  font-size: 20px;
+
+  margin-top: 10px;
+}
+
+#duracion_pelicula span{
+  font-weight: bold;
 }
 
 #genero_pelicula{
@@ -72,15 +90,67 @@ section{
   font-size: 25px;
   font-weight: bold;
 
-  margin-left: 25px;
-
-  text-align: center;
+  margin-bottom: 10px;
 }
 
 #texto_descripcion{
-  margin-left: 25px;
-  margin-right: 25px;
-  margin-top: 25px;
-
   font-size: 18px;
+
+  margin-bottom: 25px;
+  margin-right: 25px;
+}
+
+/* MOVIL */
+@media (max-width: 750px) {
+  h1{
+    text-align: center;
+
+    margin: 0px 25px;
+  }
+
+  section{
+    margin: 25px;
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  iframe{
+    width: 100%;
+    height: 250px;
+
+    margin-bottom: 25px;
+  }
+
+  #contenedor_derecha{
+    margin: 0px 25px;
+  }
+
+  #titulo_descripcion{
+    text-align: center;
+  }
+
+  #texto_descripcion{
+    text-align: center;
+
+    margin: 0px;
+  }
+
+  #duracion_pelicula{
+    margin-top: 25px;
+
+    text-align: center;
+  }
+
+  #genero_pelicula{
+    text-align: center;
+  }
+
+  #ano_pelicula{
+    text-align: center;
+  }
+
+  #idioma_pelicula{
+    text-align: center;
+  }
 }
